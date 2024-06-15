@@ -23,7 +23,7 @@ public class 안전영역2468 {
             }
         }
 
-        for (int t = 2; t <= T; t++) {
+        for (int t = 1; t <= T; t++) {
             cnt = 0;
             visited = new boolean[N][N];
             for(int i = 0; i < N; i++) {
