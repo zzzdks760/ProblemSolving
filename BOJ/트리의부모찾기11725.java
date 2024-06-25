@@ -23,7 +23,7 @@ public class 트리의부모찾기11725 {
             list[x].add(y);
             list[y].add(x);
         }
-        System.out.println(Arrays.toString(list));
+
         count[1] = 1;
         dfs(1);
 
