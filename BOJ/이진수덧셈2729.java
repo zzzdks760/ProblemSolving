@@ -18,7 +18,6 @@ public class 이진수덧셈2729 {
             BigInteger y = new BigInteger(b, 2);
 
             BigInteger answer = x.add(y);
-            System.out.println(answer);
             System.out.println(answer.toString(2));
         }
     }
